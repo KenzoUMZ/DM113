@@ -7,7 +7,6 @@ namespace DM_113_SOAP_Producer.Services
         private static List<Order> orders = new List<Order>();
         private static int counter = 1;
 
-        // Construtor estático para popular dados mockados
         static OrderService()
         {
             orders.Add(new Order
@@ -44,7 +43,7 @@ namespace DM_113_SOAP_Producer.Services
 
         public Order GetOrder(int id)
         {
-            return orders.Find(o => o.Id == id);
+            return orders.Find(o => o.Id == id)!;
         }
 
         public OrderList GetAllOrders()
@@ -60,6 +59,14 @@ namespace DM_113_SOAP_Producer.Services
                 order.Status = newStatus;
             }
         }
+
+        public void DeleteOrder(int id)
+        {
+            var order = orders.Find(o => o.Id == id);
+            if (order != null)
+            {
+                orders.Remove(order);
+            }
+        }
     }
 }
-
