@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hkq0+j5jT5k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\umeza\\Desktop\\Inatel\\DM 113\\DM113\\Producer\\DM_113_SOAP_Producer\\DM_113_SOAP_Producer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\umeza\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.10\\microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\soapcore\\1.2.1.8\\soapcore.1.2.1.8.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\system.codedom\\9.0.2\\system.codedom.9.0.2.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\system.servicemodel.http\\8.1.1\\system.servicemodel.http.8.1.1.nupkg.sha512",
+    "C:\\Users\\umeza\\.nuget\\packages\\system.servicemodel.primitives\\8.1.1\\system.servicemodel.primitives.8.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

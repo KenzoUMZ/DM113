@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tI/qi9PTtXOXNES0j5ylNq3CnP7YdZ481DZBIWVhawM=",
+  "Source": "DM_113_SOAP_Producer",
+  "BasePath": "_content/DM_113_SOAP_Producer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

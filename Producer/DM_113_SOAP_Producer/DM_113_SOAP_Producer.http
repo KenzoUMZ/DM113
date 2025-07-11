@@ -1,0 +1,6 @@
+@DM_113_SOAP_Producer_HostAddress = http://localhost:5258
+
+GET {{DM_113_SOAP_Producer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
