@@ -17,5 +17,8 @@ namespace DM_113_SOAP_Producer.Services
 
         [OperationContract]
         void UpdateOrderStatus(int id, string newStatus);
+
+        [OperationContract]
+        void DeleteOrder(int id);
     }
 }

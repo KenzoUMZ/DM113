@@ -1,0 +1,16 @@
+# Ignore de arquivos de build e VS
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+TestResults/
+*.log
+*.vspscc
+*.vssscc
+*.pdb
+*.cache
+*.dbmdl
+*.bak

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM_113_SOAP_Producer", "DM_113_SOAP_Producer.csproj", "{873F74FD-1BEB-4C9E-84D2-D9CE4DD82B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM_113_SOAP_Consumer", "..\DM_113_SOAP_Consumer\DM_113_SOAP_Consumer.csproj", "{2D9D5DFE-B811-4574-AEEA-0FE6F9A6CE60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{873F74FD-1BEB-4C9E-84D2-D9CE4DD82B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{873F74FD-1BEB-4C9E-84D2-D9CE4DD82B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{873F74FD-1BEB-4C9E-84D2-D9CE4DD82B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9D5DFE-B811-4574-AEEA-0FE6F9A6CE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9D5DFE-B811-4574-AEEA-0FE6F9A6CE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9D5DFE-B811-4574-AEEA-0FE6F9A6CE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9D5DFE-B811-4574-AEEA-0FE6F9A6CE60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

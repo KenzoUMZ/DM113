@@ -8,5 +8,9 @@ namespace DM_113_SOAP_Producer.Models
         public OrderList(IEnumerable<Order> collection) : base(collection)
         {
         }
+
+        public OrderList() : base()
+        {
+        }
     }
 }
