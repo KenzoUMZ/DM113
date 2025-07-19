@@ -25,7 +25,34 @@ git clone https://github.com/KenzoUMZ/DM113.git
 cd DM113
 ```
 
+2. Rode os comandos:
 
+```bash
+dotnet restore Producer/DM_113_SOAP_Consumer/DM_113_SOAP_Consumer.csproj
+dotnet restore Producer/DM_113_SOAP_Producer/DM_113_SOAP_Producer.csproj
+```
+
+3. Inicie o servidor SOAP Producer:
+
+```bash
+cd Producer\DM_113_SOAP_Producer
+dotnet run
+```
+
+4. Em outro terminal, inicie o servidor SOAP Consumer:
+   
+```bash
+cd Producer\DM_113_SOAP_Consumer
+dotnet run
+```
+
+5. Teste via swagger:
+
+Após iniciar o projeto `DM_113_SOAP_Consumer`, acesse:
+
+```
+https://localhost:{PORT}/swagger
+```
 
 ---
 
@@ -47,12 +74,3 @@ cd DM113
 - **PUT** `/orders/{id}/status?newStatus=valor` – atualiza status via SOAP
 - **DELETE** `/orders/{id}` – remove pedido via SOAP
 
----
-
-## 🧪 Teste via Swagger
-
-Após iniciar o projeto `DM_113_SOAP_Consumer`, acesse:
-
-```
-https://localhost:{PORT}/swagger
-```
